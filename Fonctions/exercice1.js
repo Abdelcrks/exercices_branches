@@ -19,23 +19,21 @@ function addition3Numbers(number)
 addition3Numbers()
 
 
-let number1 = 10
-let number2 = 20
-let number3 = 30
+let x = 5
+let y = 20
+let z = 30
 
-function addition3NumbersWithArg(somme)
-{
-    if (somme === 123)
-console.log("Le résultat de la somme est :", number1+ number2+number3)
-    else if (somme ===223)
-        console.log("Le résyktat de la somme est :", number2+number2+number3)
-    else if (somme === 111)
-        console.log("Le résyktat de la somme est :", number1+ number1 + number1)
 
+function addition3NumbersWithArg(a,b,c){
+    console.log("resultat de la somme est :", a + b + c)
 }
 
-addition3NumbersWithArg(123)
-addition3NumbersWithArg(223)
-addition3NumbersWithArg(111)
 
-//
+addition3NumbersWithArg(x,z,y)
+
+
+addition3NumbersWithArg(10,10,20)
+addition3NumbersWithArg(20,40,100)
+addition3NumbersWithArg(100,200,100)
+
+// 
