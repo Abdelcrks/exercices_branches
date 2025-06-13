@@ -28,9 +28,9 @@ const multiplierPar10 = (nombre) => {
 let saisie = prompt("Entre un nombre :")     // creer la fonction qui affiche la boite
 let nombreUtilisateur = Number(saisie)        // permet de convertir les "strings" en nombre  
 let resultCarrer = calculerCarrer(nombreUtilisateur)  // appel la fonction resultat carrer pour calculer au carré le nombre de l'utilisateur
-console.log(resultCarrer) // affiche le resultat de resultCarrer 
+alert(resultCarrer) // affiche le resultat de resultCarrer 
 let resultatFinal = multiplierPar10(resultCarrer) // appel la fonction multiplier par qui multiplie par 10 
-console.log(resultatFinal) // affiche le calcul au carré et le x10 
+alert(resultatFinal) // affiche le calcul au carré et le x10 
 
 // https://codepen.io/pen/?editors=1111 pour tester le prompt
 

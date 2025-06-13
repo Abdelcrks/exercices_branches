@@ -108,4 +108,3 @@ const peutEntrer = () => {
 }
 
 console.log(peutEntrer())
-
