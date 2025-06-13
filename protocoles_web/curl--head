@@ -1,0 +1,22 @@
+
+
+Utilise la commande curl pour faire une requête HTTP vers le site d’Ada Tech School avec la syntaxe suivante : curl --head [<https://www.adatechschool.fr>](<https://www.adatechschool.fr/>;)
+
+Que constate-t-on en réponse ? Quelle est la signification de chaque en-tête de la réponse ?
+
+
+curl --head https://www.adatechschool.fr
+
+ HTTP/2 301                                        = protocole qui est http/2 qui est plus recent et rapide que le 1
+date: Fri, 13 Jun 2025 12:04:03 GMT                = date du jour 
+content-type: text/html; charset=UTF-8             = type de contenu html
+server: OVHcloud                                   = hebergé chez   OVHCLOUD
+x-powered-by: PHP/8.2                              = php 
+expires: Fri, 13 Jun 2025 13:04:03 GMT             = date valide jusqu'a
+cache-control: max-age=3600                        =3600 c'est les secondes donc max 1h de cache
+x-redirect-by: WordPress                           = wordpress
+location: https://adatechschool.fr/                = redirigé
+vary: Accept-Encoding                              
+
+
+
