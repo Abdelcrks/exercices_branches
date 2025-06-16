@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+
+h1,p,ul{
+    color: hotpink;
+    font-family: 'Comic Sans MS'; 
+       }
+
+img{
+    border-radius: 50%; 
+    border: 10px solid hotpink; /* Border : les bordures de l'image d'une taille de 10px */
+}                                 /* solid est le style de la bordure bordure pleine, et hotpink la couleur de la bordure */
