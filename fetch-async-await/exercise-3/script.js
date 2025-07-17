@@ -11,16 +11,19 @@ const post = async () => {
     loading.style.display="none"
 
     data.posts.forEach(post => {
-      const h2 = document.createElement("h2")
-      divPost.appendChild(h2)
-      h2.innerText= post.title 
+      const h2Title = document.createElement("h2")
+      divPost.appendChild(h2Title)
+      h2Title.innerText= post.title 
       
-      const p = document.createElement("p")
-      divPost.appendChild(p)
-      p.innerText= post.body
+      const pBody= document.createElement("p")
+      divPost.appendChild(pBody)
+      pBody.innerText= post.body
+
+      const pTags = document.createElement("p")
+      divPost.appendChild(pTags)
+      pTags.innerText = post.tags
     });
 
 }   
 
 post()
-
