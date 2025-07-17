@@ -2,7 +2,6 @@ const loadingText = document.getElementById("loading")
 const divContainer =document.getElementById("container")
 
 
-
 async function fetchOffers() {
 
     loadingText.innerText = "Chargement des offres… ⏳"
@@ -28,6 +27,7 @@ async function fetchOffers() {
         description.innerHTML = element.description
         
     });
-
+    
 }
 fetchOffers()
+
