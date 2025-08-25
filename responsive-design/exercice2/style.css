@@ -37,7 +37,7 @@ main {
 
 .item-1{
   grid-column: 1 / 6; 
-  grid-row: 1/3;       
+  grid-row: 1/3;
 }
 
 .item-1 img{
@@ -64,7 +64,7 @@ main {
  .item-3 img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background: center top / cover no-repeat;
 }
 
 .item-4{
